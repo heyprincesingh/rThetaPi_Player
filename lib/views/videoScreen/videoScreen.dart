@@ -14,8 +14,6 @@ class videoPlayer extends StatefulWidget {
 
 class _videoPlayerState extends State<videoPlayer> {
 
-  final File filee = File('storage/emulated/0/Movies/Instagram/VID_257790108_183858_901.mp4');
-
   late VideoPlayerController controller;
 
   @override

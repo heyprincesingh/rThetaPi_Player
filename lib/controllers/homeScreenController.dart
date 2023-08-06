@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:fetch_all_videos/fetch_all_videos.dart';
 import 'package:flutter_video_info/flutter_video_info.dart';

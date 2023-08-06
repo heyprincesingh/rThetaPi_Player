@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:rthetapi_player/views/audioScreen/audioScreen.dart';
 import 'package:rthetapi_player/controllers/homeScreenController.dart';
 import 'package:rthetapi_player/views/videoScreen/videoListScreen.dart';
 import 'package:rthetapi_player/views/videoScreen/videoScreen.dart';
@@ -9,7 +10,6 @@ class homeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return videoPlayer();
 
     return SafeArea(
       child: DefaultTabController(
@@ -37,12 +37,7 @@ class homeScreen extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     videoListScreen(),
-                    Container(
-                      child: Text(
-                        "2 screen",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
+                    audioScreen(),
                   ],
                 ),
               ),
